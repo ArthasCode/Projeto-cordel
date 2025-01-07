@@ -1,0 +1,75 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playwrite+ES+Deco+Guides&family=Sriracha&display=swap');
+@font-face {
+    font-family: Passion;
+    src: url('../Fontes/Passion_One/PassionOne-Regular.ttf') format('truetype');
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    min-height: 100vh;
+}
+*{
+    margin: 0;
+}
+header{
+    padding: 40px;
+    background-color: black;
+    text-align: center;
+    color: white;
+}
+header a, footer a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+header a:hover, footer a:hover{
+    text-decoration: underline;
+
+}
+h1{
+    font-family: Passion, sans-serif;
+    font-size: 10vw;
+    font-weight: regular;
+    font-variant: small-caps;
+}
+main p{
+    display: inline-block;
+    font-family: 'Sriracha',cursive;
+    
+    margin: 20px;
+    padding: 5px; 
+}
+section{
+    padding-top:10vh;
+    padding-bottom: 10vh;
+    font-size: 3.5vw;
+    line-height: 2.5em;
+    padding-left: 30px;
+}
+section.imagem{
+    background-color: rgb(56, 55, 55);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed; 
+    color: white;
+}
+section.imagem p{
+    border-radius: 20px;
+}
+#joaninha{
+    background-image: url('../imagens/background001.jpg');
+}
+.especial{
+    background-color: rgba(0, 0, 0, 0.318);
+    padding:5px;
+}
+#livro{
+    background-image: url('../imagens/background002.jpg');
+}
+footer{
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
