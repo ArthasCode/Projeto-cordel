@@ -21,10 +21,13 @@ header a, footer a{
     text-decoration: none;
     color: white;
     font-weight: bold;
+    transition: 0.5s;
 }
 header a:hover, footer a:hover{
     text-decoration: underline;
-
+    background-color: white;
+    border-radius: 5px;
+    color: black;
 }
 h1{
     font-family: Passion, sans-serif;
